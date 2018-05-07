@@ -1,0 +1,17 @@
+nothing
+
+
+circle  gauss1  gauss3  gauss5  lp1  lp3 square
+cone    gauss2  gauss4  lp2  mean  pyramid
+
+meanRemoval hp1 hp2 hp3
+
+horizontal vertical slant1 slant2
+
+GD_North GD_South GD_west GD_east
+
+E_North E_South E_West E_East
+
+lapl1 lapl2 lapl3 laplSlant laplHorizontal laplVertical
+
+horizontalSobel verticalSobel horizontalPrewitt verticalPrewitt
