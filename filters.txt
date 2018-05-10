@@ -1,17 +1,23 @@
-nothing
+nothing - this filter does nothing.
 
-
+Low-pass filters (less noise, blurry):
 circle  gauss1  gauss3  gauss5  lp1  lp3 square
 cone    gauss2  gauss4  lp2  mean  pyramid
 
+High-pass filters (enchance details, noises, edges):
 meanRemoval hp1 hp2 hp3
 
+Shift filters (detect edges):
 horizontal vertical slant1 slant2
 
+Gradient directional filters (detect edges):
 GD_North GD_South GD_west GD_east
 
+Embossing filters (relief effect): 
 E_North E_South E_West E_East
 
+Laplace filters (detect edges in all directions):
 lapl1 lapl2 lapl3 laplSlant laplHorizontal laplVertical
 
+Contour(outline) filters:
 horizontalSobel verticalSobel horizontalPrewitt verticalPrewitt

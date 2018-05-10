@@ -38,7 +38,8 @@ if __name__ == "__main__":
 	except:
 		print("Cannot open image file or file not specified. Opening default - \"Lenna.png\"...")
 		try:
-			image = Image.open("Lenna.png")
+			args.imageFile = "Lenna.png"
+			image = Image.open(args.imageFile)
 		except:
 			print("Cannot open default image - \"Lenna.png\". Check if this file is in your directory. If it isn\'t - add it. Otherwise cry...")
 			sys.exit(0)
@@ -68,6 +69,6 @@ if __name__ == "__main__":
 
 	if not args.noshow:
 		image.show()
-		image = Image.open("Lenna.png")
+		image = Image.open(args.imageFile)
 		image.show()
 	sys.exit(0)
